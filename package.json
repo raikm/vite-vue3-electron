@@ -1,0 +1,41 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "description": "template for vite-electron-ts",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "electron-dev-runner src/main/index.ts --vite",
+    "start": "electron dist/main/index.js",
+    "build": "tsc src/main/index.ts --moduleResolution Node --removeComments -t ES5 --outDir dist/main && vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "bd": "yarn build && electron-builder",
+    "bdm": "yarn build && electron-builder -m",
+    "bdw": "yarn build && electron-builder -w"
+  },
+  "dependencies": {
+    "vue": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "electron": "^13.1.2",
+    "electron-builder": "^22.10.5",
+    "electron-dev-runner": "^1.0.1",
+    "typescript": "^4.3.4",
+    "vite": "^2.3.7"
+  },
+  "keywords": [
+    "vite",
+    "vue",
+    "electron"
+  ],
+  "build": {
+    "productName": "template",
+    "directories": {
+      "output": "build/dist"
+    },
+    "files": [
+      "dist/**/*"
+    ]
+  }
+}
