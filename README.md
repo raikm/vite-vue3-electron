@@ -8,4 +8,8 @@ Based on: https://github.com/cyytemplate/vite-electron-ts with the latest npm pa
 
 ```
 npx degit raikm/vite-vue3-electron <project-name>
+
+npm i
+
+npm run dev
 ```

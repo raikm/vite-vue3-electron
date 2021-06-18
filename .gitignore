@@ -82,12 +82,5 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# Webpack
-.webpack/
-
 # Builds
 build/
-dist_electron/
-dist/
-#Electron-builder output
-/dist_electron

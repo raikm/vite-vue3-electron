@@ -1,5 +1,5 @@
 <template>
-  Kontrolltool
+  Vite + Vue3 + Electron
 </template>
 
 <script lang="ts">

@@ -1,6 +1,5 @@
 import { join } from 'path';
 import { app, BrowserWindow } from 'electron';
-import './router';
 import './menu';
 const isDev = process.env.NODE_ENV === 'development'
 const WinURL = isDev
