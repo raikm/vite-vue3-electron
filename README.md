@@ -1,5 +1,5 @@
 
-Template for Vite + Vue3 + Electron
+# Template for Vite + Vue3 + Electron
 
 Based on: https://github.com/cyytemplate/vite-electron-ts with the latest npm package updates
 
