@@ -1,3 +1,4 @@
+//TODO Englisch Examples
 import { app, Menu, MenuItemConstructorOptions, shell } from 'electron';
 
 const appName = 'vite-electron'
